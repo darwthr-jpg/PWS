@@ -103,4 +103,18 @@ footer {
   font-size: 0.9em;
   color: #777;
   border-top: 1px solid #e5e5e5;
+
+}
+
+@media screen and (max-width: 600px) {
+    nav ul {
+        flex-direction: column;   /* Меню вертикальное */
+        gap: 15px;                /* Расстояние между пунктами */
+        align-items: center;      /* Центрируем меню */
+        margin: 20px 0;           /* Немного меньше отступ сверху */
+    }
+
+    nav a {
+        font-size: 1.2em;         /* Текст чуть больше для удобства */
+    }
 }
