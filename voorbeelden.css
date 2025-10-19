@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+/* Общие настройки */
+body {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  color: #2b2b2b;
+  line-height: 1.7;
+}
+
+/* Заголовок страницы */
+header {
+  background-color: #ffffff;
+  padding: 80px 0 40px;
+  text-align: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 3em;
+  color: #3a3a3a;
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+/* Навигация */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 30px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3a3a3a;
+  font-weight: 600;
+  transition: color 0.3s ease;
+  font-size: 1.05em;
+}
+
+nav a:hover {
+  color: #7b1e28;
+}
+
+/* Основной контент */
+main {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 25px;
+}
+
+/* Карточки примеров */
+.card {
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+  padding: 30px;
+  margin-bottom: 50px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.card h2 {
+  font-family: 'Merriweather', serif;
+  color: #7b1e28;
+  font-size: 1.7em;
+  margin-top: 0;
+}
+
+.card p {
+  font-size: 1.1em;
+  color: #444;
+}
+
+.card a {
+  color: #7b1e28;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
+/* Раздел с источниками */
+section hr {
+  border: none;
+  border-top: 2px solid #d8d8d8;
+  margin: 60px 0 40px;
+}
+
+section h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5em;
+  color: #3a3a3a;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 1em;
+  color: #555;
+  line-height: 1.6;
+}
+
+section a {
+  color: #7b1e28;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Подвал */
+footer {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 25px;
+  font-size: 0.9em;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
